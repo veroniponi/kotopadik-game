@@ -1,0 +1,390 @@
+@media all and (min-device-width: 1920px){
+    body {
+        background-color: #565656;
+        padding: 0;
+        height: 1080px;
+        width: 1990px;
+        overflow: hidden;
+      }
+      
+};
+
+@media all and (min-device-width: 1367px);{
+    body {
+        background-color: #565656;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+      } 
+}
+
+@media all and (min-device-width: 1366px) and (max-device-width: 1439px);{
+    body {
+        background-color: #565656;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+      }
+} 
+   
+@media all and (min-device-width: 1024px) and (max-device-width: 1365px){
+    body {
+        background-color: #565656;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+      }
+
+      
+
+    .text3 {left: 88vw; top: 68vw; font-size: 3.7vw;}
+
+    .knopka {top: 66.5vw;transform: scale(1.3);left: 80.32vw;}
+
+    .knopka2 {top: 66.5vw;transform: scale(1.3);left: 80.32vw;}
+
+    .knopka3 {top: 66.5vw;transform: scale(1.3);left: 80.32vw;}
+
+    .slova2 { top: 4vw; left: 44vw;}
+
+    .slova3 { top: 4vw; left: 44vw;}
+
+    .text5 { left: 57.5vw; top: 14.8vw;}
+
+    .text8 { left: 57.5vw; top: 14.8vw;}
+
+    .text11 { left: 53.5vw; top: 15.8vw;}
+
+    .cat {top: 23vw; left: 21vw; transform: scale(1.3);}
+
+    .catchelka {top: 23vw; left: 21vw; transform: scale(1.3);}
+
+    .catnew {top: 23vw; left: 21vw; transform: scale(1.3);}
+
+    .cat5 {top: 23vw; left: 21vw; transform: scale(1.3);}
+
+    .text2 {top: 15.6vw;}
+
+    .move {top: 11vw;}
+
+    .welldone {top:11vw;}
+
+    .floors {top:11vw;}
+
+    .another {top:11vw;}
+
+    .podskazka2 {top: -2vw; transform: scale(1.1);}
+
+    .barmen {top: -2vw; transform: scale(1.1);}
+
+    .false {top: -2vw; transform: scale(1.1);}
+
+    .knopkastop {top:54vw; transform: scale(1.3);}
+
+    .knopkastop3 {top:54vw; transform: scale(1.3);}
+
+    .knopkastop5 {top:65vw; transform: scale(1.3);}
+
+    .knopkastop2 {top:54vw; transform: scale(1.3);}
+
+    .knopkaplay2 {top:54vw; transform: scale(1.3);}
+
+    .knopkaplay {top:54vw; transform: scale(1.3);}
+
+    .knopkanext {top:54vw; left: 12vw; transform: scale(1.3);}
+
+    .knopkanext3 {top:65vw; left: 12vw; transform: scale(1.3);}
+
+    .knopkanext4 {top:55vw; left: 12vw; transform: scale(1.3);}
+
+    .knopkanext2 {top:54vw; left: 12vw; transform: scale(1.3);}
+
+    .knopkanext {top:54vw; left: 12vw; transform: scale(1.3);}
+
+    .text15 {top:2vw;}
+
+    .text12 {font-size: 3.7vw; left: 20vw; top: 55vw;}
+
+    .say4 {left: 8vw; transform: scale(1.3);}
+
+    .say3 {left: 7vw; top: 4vw; transform: scale(1.3);}
+
+    .say5 {left: 7vw; top: 4vw; transform: scale(1.3);}
+
+    .say7 {left: 5vw; top: 4vw; transform: scale(1.3);}
+
+    .say6 {left: 7vw; top: 4vw; transform: scale(1.3);}
+
+    .text6 {left: 18vw;  transform: scale(1.3);}
+
+    .text13 {left: 18vw; top:12; transform: scale(1.3);}
+
+    .text14 {left: 18vw;  transform: scale(1.3);}
+
+    .text10 {left: 18vw;  transform: scale(1.3);}
+
+    .text4 {left: 18vw; top: 15vw; transform: scale(1.3);}
+
+    .text9 {left: 18vw; top: 15vw; transform: scale(1.3);}
+
+    .catbar {top: 38.92vw; transform: scale(1.3);}
+
+    .catbar2 {top: 38.92vw; transform: scale(1.3);}
+
+    .catbar3 {top: 38.92vw; transform: scale(1.3);}
+
+    .bar {top: 51vw;}
+
+    .bar2 {top: 51vw;}
+
+    .bar3 {top: 51vw;}
+
+    .catwant { left:55vw; top: 10vw;transform: scale(1.1);}
+
+    .wiskey {left: 88vw; top: 44vw;}
+
+    .bleizer {top:43vw;}
+
+    .wine {top:40vw;}
+
+    .coke2 {top:46vw;}
+
+    .rome {top:41vw;}
+
+    .cathappy {top:11vw;transform: scale(1.1);}
+
+    .napitok {top:42vw;}
+
+    .catagro {top:9vw;scale(1.1);}
+
+    .knopkareplay {top: 61.5vw; left: 88vw;transform: scale(1.1);}
+
+    .komnata1 {top:11vw;}
+
+    .komnata2 {top:11vw;}
+
+    .komnata3 {top:11vw;}
+
+    .welldone3 {top:11vw;}
+
+    .knopkastop6 {top: 55vw; left: 3vw; transform: scale(1.3);}
+
+    .catstart1 {top: 40vw;transform: scale(1.1);}
+
+    .catstart4 {top: 44vw;transform: scale(1.1);}
+
+    .kotopadik {top: 28vw; left:25vw;transform: scale(1.3);}
+
+    .textmini {left: 76.5vw; top: 28.2vw;}
+}; 
+
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    body {
+        background-color: #565656;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+      }
+
+      
+
+    .text3 {left: 88vw; top: 68vw; font-size: 3.7vw;}
+
+    .knopka {top: 66.5vw;transform: scale(1.3);left: 80.32vw;}
+
+    .knopka2 {top: 66.5vw;transform: scale(1.3);left: 80.32vw;}
+
+    .knopka3 {top: 66.5vw;transform: scale(1.3);left: 80.32vw;}
+
+    .slova2 { top: 4vw; left: 44vw;}
+
+    .slova3 { top: 4vw; left: 44vw;}
+
+    .text5 { left: 57.5vw; top: 14.8vw;}
+
+    .text8 { left: 57.5vw; top: 14.8vw;}
+
+    .text11 { left: 53.5vw; top: 15.8vw;}
+
+    .cat {top: 23vw; left: 21vw; transform: scale(1.3);}
+
+    .catchelka {top: 23vw; left: 21vw; transform: scale(1.3);}
+
+    .catnew {top: 23vw; left: 21vw; transform: scale(1.3);}
+
+    .cat5 {top: 23vw; left: 21vw; transform: scale(1.3);}
+
+    .text2 {top: 15.6vw;}
+
+    .move {top: 11vw;}
+
+    .welldone {top:11vw;}
+
+    .floors {top:11vw;}
+
+    .another {top:11vw;}
+
+    .podskazka2 {top: -2vw; transform: scale(1.1);}
+
+    .barmen {top: -2vw; transform: scale(1.1);}
+
+    .false {top: -2vw; transform: scale(1.1);}
+
+    .knopkastop {top:54vw; transform: scale(1.3);}
+
+    .knopkastop3 {top:54vw; transform: scale(1.3);}
+
+    .knopkastop5 {top:65vw; transform: scale(1.3);}
+
+    .knopkastop2 {top:54vw; transform: scale(1.3);}
+
+    .knopkaplay2 {top:54vw; transform: scale(1.3);}
+
+    .knopkaplay {top:54vw; transform: scale(1.3);}
+
+    .knopkanext {top:54vw; left: 12vw; transform: scale(1.3);}
+
+    .knopkanext3 {top:65vw; left: 12vw; transform: scale(1.3);}
+
+    .knopkanext4 {top:55vw; left: 12vw; transform: scale(1.3);}
+
+    .knopkanext2 {top:54vw; left: 12vw; transform: scale(1.3);}
+
+    .knopkanext {top:54vw; left: 12vw; transform: scale(1.3);}
+
+    .text15 {top:2vw;}
+
+    .text12 {font-size: 3.7vw; left: 20vw; top: 55vw;}
+
+    .say4 {left: 8vw; transform: scale(1.3);}
+
+    .say3 {left: 7vw; top: 4vw; transform: scale(1.3);}
+
+    .say5 {left: 7vw; top: 4vw; transform: scale(1.3);}
+
+    .say7 {left: 5vw; top: 4vw; transform: scale(1.3);}
+
+    .say6 {left: 7vw; top: 4vw; transform: scale(1.3);}
+
+    .text6 {left: 18vw;  transform: scale(1.3);}
+
+    .text13 {left: 18vw; top:12; transform: scale(1.3);}
+
+    .text14 {left: 18vw;  transform: scale(1.3);}
+
+    .text10 {left: 18vw;  transform: scale(1.3);}
+
+    .text4 {left: 18vw; top: 15vw; transform: scale(1.3);}
+
+    .text9 {left: 18vw; top: 15vw; transform: scale(1.3);}
+
+    .catbar {top: 38.92vw; transform: scale(1.3);}
+
+    .catbar2 {top: 38.92vw; transform: scale(1.3);}
+
+    .catbar3 {top: 38.92vw; transform: scale(1.3);}
+
+    .bar {top: 51vw;}
+
+    .bar2 {top: 51vw;}
+
+    .bar3 {top: 51vw;}
+
+    .catwant { left:55vw; top: 10vw;transform: scale(1.1);}
+
+    .wiskey {left: 88vw; top: 44vw;}
+
+    .bleizer {top:43vw;}
+
+    .wine {top:40vw;}
+
+    .coke2 {top:46vw;}
+
+    .rome {top:41vw;}
+
+    .cathappy {top:11vw;transform: scale(1.1);}
+
+    .napitok {top:42vw;}
+
+    .catagro {top:9vw;scale(1.1);}
+
+    .knopkareplay {top: 61.5vw; left: 88vw;transform: scale(1.1);}
+
+    .komnata1 {top:11vw;}
+
+    .komnata2 {top:11vw;}
+
+    .komnata3 {top:11vw;}
+
+    .welldone3 {top:11vw;}
+
+    .knopkastop6 {top: 55vw; left: 3vw; transform: scale(1.3);}
+
+    .catstart1 {top: 40vw;transform: scale(1.1);}
+
+    .catstart4 {top: 44vw;transform: scale(1.1);}
+
+    .kotopadik {top: 28vw; left:25vw;transform: scale(1.3);}
+
+    .textmini {left: 76.5vw; top: 28.2vw;}
+};
+
+@media (min-device-width: 639px) and (max-device-width: 897px) and (orientation: landscape){
+ .custom-coursor {display: none;}
+
+ .catstart4 {top: 16vw;}
+
+ .catstart1 {top: 15vw;}
+
+ .kotopadik {top: 17vw;}
+
+ .slova {top:0;}
+
+ .cat {top:14vw;}
+
+ .h1 {top:10.8vw;}
+
+ .knopkastop {top:39vw; transform: scale(1.3);}
+
+    .knopkastop3 {top:39vw; transform: scale(1.3);}
+
+    .knopkastop5 {top:39vw; transform: scale(1.3);}
+
+    .knopkastop2 {top: 40.5vw; transform: scale(1.3);}
+
+    .knopkaplay2 {top: 40.5vw; transform: scale(1.3);}
+
+    .knopkaplay {top:39vw; transform: scale(1.3);}
+
+    .knopkanext {top:39vw; left: 12vw; transform: scale(1.3);}
+
+    .knopkanext3 {top:65vw; left: 12vw; transform: scale(1.3);}
+
+    .knopkanext4 {top:39vw; left: 12vw; transform: scale(1.3);}
+
+    .knopkanext2 {top: 40.5vw;; left: 12vw; transform: scale(1.3);}
+
+    .knopkanext {top:39vw; left: 12vw; transform: scale(1.3);}
+
+    .text3 {top:41vw;}
+
+    .catchelka {top: 9vw;}
+    
+    .knopka2 {top: 40vw;}
+
+    .catbar {top: 18.92vw;}
+
+    .catbar2 {top: 18.92vw;}
+
+    .catbar3 {top: 18.92vw;}
+
+    .knopkareplay {top: 1.5vw; left: 1vw;}
+
+    .knopkanext2 {top: 31.5vw;
+        left: 9vw;}
+
+};

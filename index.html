@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="styles/style.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>мини игра Котопадик</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="javascripts/main.js"></script>
+</head>
+<body>
+
+  <div class="texture"></div>
+  <div class="movetexture"></div>
+
+  <div class="none"></div>
+  <div class="hidden"></div>
+
+  <div class="custom-cursor"></div>
+
+
+  <div class="start">
+    <div class="catstart1"></div>
+    <div class="catstart2"></div>
+    <div class="catstart3"></div>
+    <div class="catstart4"></div>
+    <div class="textmini">(серое безумие)</div>
+    <div class="kotopadik"></div>
+  </div>
+
+
+  <section class="firstpage">
+
+    <div class="cat"></div>
+    <div class="slova"></div>
+    <h1>Привет друг! 
+      <br> Мы устроили сумасшед-<br>шую тусовку эмо котов, <br>но что-то пошло не по плану, 
+      <br>всё стало бесцветным, а мы так <br>любим эмоции! 
+    </h1>
+
+  </section>
+
+  <div class="hellopage">
+
+    <div class="cat"></div>
+    <div class="slova2"></div>
+    <p class="text2">Нам очень нужна 
+      <br> твоя помощь!
+      <br> На тусовку пробрались <br> незванные гости, 
+      <br> прогони их из падика
+    </p>
+    <div class="knopka"></div>
+    <p class="text3">ЛЕТС ГОУ!</p>
+
+  </div>
+
+  <div class="podskazka">
+
+     <div class="house"></div>
+     <div class="say3"></div>
+     <p class="text4">подсказка:<br>
+      нажимай на всех животных, <br> кроме котов! им тут не место</p>
+
+  </div>
+
+  <div class="move">
+
+    <div class="cat1"></div>
+    <div class="cat2"></div>
+    <div class="cat3"></div>
+    <div class="cat4"></div>
+    <div class="dog" id="dog"></div>
+    <div class="snake" id="snake"></div>
+    <div class="fish" id="fish"></div>
+    <div class="house2"></div>
+    <div class="knopkastop2"></div>
+    <div class="knopkaplay2"></div>
+    <div class="knopkanext2"></div>
+    <div class="line2"></div>
+    <div class="error"></div>
+    <div class="text15">Р-Р-Р-Р-Р-Р-Р-Р-Р<br>НЕ ТРОГАЙ КОТА!</div>
+
+
+
+  </div>
+
+  <div class="welldone">
+
+    <div class="housepurple"></div>
+    <div class="knopkastop2"></div>
+    <div class="knopkaplay2"></div>
+    <div class="knopkanext2"></div>
+    <div class="text12">ПОЙДЁМ ДАЛЬШЕ!</div>
+
+  </div>
+
+  <div class="thankyou">
+
+    <div class="catchelka"></div>
+    <div class="slova2"></div>
+    <p class="text5">Ого! Моя чёлка снова <br> цветная! Но этого <br> мало... На тусовку <br> не пришёл бармен, нам <br>срочно нужна замена, <br>поможешь?</p>
+    <div class="knopka2"></div>
+    <p class="text3">ЛЕТС ГОУ!</p>
+
+  </div>
+
+  <div class="podskazka2">
+
+    <div class="say4"></div> 
+    <p class="text6">Подсказка:
+      <br> нажимай на тот напиток, <br>который хочет котик!
+    </p>
+    <div class="bar"></div>
+    <div class="catbar"></div>
+
+
+  </div>
+
+  <div class="barmen">
+
+    <div class="bar2"></div>
+    <div class="catbar2"></div>
+    <div class="knopkastop2"></div>
+    <div class="knopkaplay2"></div>
+    <div class="knopkanext2"></div>
+    <div class="catwant"></div>
+    <div class="whatwant"></div>
+    <div class="coke"></div>
+    <div class="coke2"></div>
+    <div class="rome"></div>
+    <div class="wine"></div>
+    <div class="bleizer"></div>
+    <div class="wiskey"></div>
+
+  </div>
+
+  <div class="false">
+
+    <div class="agrocat"></div>
+    <div class="bar2"></div>
+    <div class="catbar2"></div>
+    <div class="knopkastop2"></div>
+    <div class="knopkaplay2"></div>
+    <div class="knopkanext2"></div>
+    <div class="knopkareplay"></div>
+    <div class="catagro"></div>
+    <p class="text7">Р-Р-Р-Р-Р-Р-Р-Р-Р</p>
+    <div class="coke2"></div>
+    <div class="rome"></div>
+    <div class="wine"></div>
+    <div class="bleizer"></div>
+    <div class="wiskey"></div>
+
+  </div>
+
+  <div class="welldone2">
+
+    <div class="bar3"></div>
+    <div class="catbar3"></div>
+    <div class="cathappy"></div>
+    <div class="knopkastop5"></div>
+    <div class="knopkaplay2"></div>
+    <div class="knopkanext3"></div>
+    <div class="napitok"></div>
+    <div class="text12">ПОЙДЁМ ДАЛЬШЕ!</div>
+
+  </div>
+
+  <div class="komnata3">
+
+    <p class="text13">подсказка:
+      <br>убери лужи, почини
+      <br>лампочки, окно <br>ванную, зашей диван
+      <br>убери паутину </p>
+    <div class="say7"></div>
+    <div class="lines"></div>
+    <div class="sofa"></div>
+    <div class="luzha"></div>
+    <div class="luzha2"></div>
+    <div class="lamp1"></div>
+    <div class="lamp2"></div>
+    <div class="vanna"></div>
+    <div class="window"></div>
+    <div class="pautina3"></div>
+    <div class="normokno"></div>
+    <div class="normvanna"></div>
+    <div class="normsofa"></div>
+    <div class="normlampa1"></div>
+    <div class="normlampa2"></div>
+    
+
+
+
+  </div>
+
+  <div class="goodjob">
+
+    <div class="catnew"></div>
+    <div class="slova2"></div>
+    <p class="text8">Наконец-то мои усы 
+      <br> и хвост снова фиолетовые, <br>спасибо тебе! Тусовка <br>закончилась, а мусор <br>остался, помоги убрать его.
+    </p>
+    <div class="knopka3"></div>
+    <p class="text3">ЛЕТС ГОУ!</p>
+  </div>
+
+
+  <div class="podskazka3">
+
+   
+    <div class="say3"></div> 
+    <p class="text9">подсказка:
+      <br>нажми на любую комнату, <br>чтобы убраться там.</p>
+
+
+  </div>
+
+  <div class="floors">
+
+    <div class="house4"></div>
+    <div class="floor4"></div>
+    <div class="floor3"></div>
+    <div class="knopkastop2"></div>
+    <div class="knopkaplay2"></div>
+    <div class="knopkanext2"></div>
+
+  </div>
+
+
+  <div class="komnata1">
+
+
+    <div class="fon"></div>
+    <p class="text10">подсказка:
+      <br>убери бумажки и бутылки 
+      <br>в мусорку, почини диджей <br>стойку,  исправь диско шар 
+      <br>убери паутину </p>
+    <div class="say5"></div>
+    <div class="bigfloor"></div>
+    <div class="bottle1"></div>
+    <div class="bottle2"></div>
+    <div class="bottle3"></div>
+    <div class="bottle4"></div>
+    <div class="paper1"></div>
+    <div class="paper2"></div>
+    <div class="paper3"></div>
+    <div class="paper4"></div>
+    <div class="paper5"></div>
+    <div class="dj"></div>
+    <div class="dj2"></div>
+    <div class="disco"></div>
+    <div class="disco2"></div>
+    <div class="bin"></div>
+    <div class="pautina"></div>
+
+  </div>
+
+  <div class="komnata2">
+
+    <div class="bigfloor2"></div>
+    <div class="bottle12" id="bottle1"></div>
+    <div class="bottle22" id="bottle2"></div>
+    <div class="bottle32" id="bottle3"></div>
+    <div class="bottle42" id="bottle4"></div>
+    <div class="paper12" id="paper1"></div>
+    <div class="paper22" id="paper2"></div>
+    <div class="paper32" id="paper3"></div>
+    <div class="paper42" id="paper4"></div>
+    <div class="paper52" id="paper5"></div>
+    <div class="dj3"></div>
+    <div class="dj22"></div>
+    <div class="disco22"></div>
+    <div class="disco222"></div>
+    <div class="bin2"></div>
+    <div class="pautina2"></div>
+
+  </div>
+
+  <div class="welldone3">
+
+    <div class="floor5"></div>
+    <div class="knopkastop6"></div>
+    <div class="knopkanext4"></div>
+
+  </div>
+
+  <div class="another">
+
+    
+    <div class="say6"></div> 
+    <p class="text14">Теперь уберись <br> в нижней комнате! <br>Тыкни на неё!</p>
+    <div class="house4"></div>
+    <div class="floor6"></div>
+    <div class="floor3"></div>
+    <div class="knopkastop2"></div>
+    <div class="knopkaplay2"></div>
+    <div class="knopkanext2"></div>
+  
+  
+    
+  </div>
+
+  <div class="goodjob2">
+
+    <div class="cat5"></div>
+    <div class="slova3"></div>
+    <p class="text11">Вау! Серость пропала! <br>Ты помог мне вернуться в мой <br> прежний вид!! Cпасибо тебе!
+    </p>
+
+  </div>
+
+  
+
+</body>
+</html> 

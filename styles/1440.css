@@ -1,0 +1,1887 @@
+
+body {
+  background-color: #565656;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+body {
+  cursor: none;
+}
+
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  pointer-events: none;
+  width: 80px;
+  height: 80px;
+  background: url('../images/coursor.png') no-repeat;
+  background-size: contain;
+}
+
+
+
+.none {
+  display: none;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+
+.start {
+  position: relative;
+  display: none;
+  z-index: 1;
+
+}
+
+
+.firstpage {
+  position: relative;
+  display: none;
+  z-index: 1;
+
+}
+
+.hellopage {
+  display: none;
+  z-index: 1;
+}
+
+.podskazka {
+  display: none;
+}
+
+.move {
+  position: relative;
+  top: 0;
+  z-index: 3;
+  display: none;
+}
+
+.welldone {
+  position: relative;
+  top: 0;
+  display: none;
+}
+
+.thankyou {
+  display: none;
+}
+
+.podskazka2 {
+  position: relative;
+  top: 0;
+  display: none;
+}
+
+.barmen {
+  position: relative;
+  top: 0;
+  display: none;
+}
+
+.false {
+  position: relative;
+  top: 0;
+  display: none;
+}
+
+.welldone2 {
+  position: relative;
+  top: 0;
+  display: none;
+}
+
+.goodjob {
+  display: none;
+}
+
+.podskazka3 {
+  display: none;
+}
+
+.floors {
+  position: relative;
+  top: 0;
+  display: none;
+}
+
+.komnata1 {
+  position: relative;
+  top: 0;
+  display: none;
+}
+
+.komnata2 {
+  position: relative;
+  top: 0;
+  display: none;
+}
+
+.komnata3 {
+  position: relative;
+  top: 0;
+  display: none;
+}
+
+.welldone3 {
+  position: relative;
+  top: 0;
+  display: none;
+}
+
+.another{
+  position: relative;
+  top: 0;
+  display: none;
+}
+
+.goodjob2 {
+  display: none;
+}
+
+.texture {
+  position: absolute;
+  height: 100vw;
+  width: 100vw;
+  background-image: url("../images/Texture.png");
+  background-size: cover;
+  background-position: 0 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.movetexture {
+  position: absolute;
+  height: 120vw;
+  width: 120vw;
+  left: 0vw;
+  background-image: url("../images/texture2.png");
+  background-size: cover;
+  background-position: 0 0;
+  z-index: 0;
+  overflow: hidden;
+  animation: texture infinite .3s steps(1);
+}
+
+
+@keyframes texture {
+
+  0% {margin-left: 0vw;}
+
+  50% {margin-left: -5vw;}
+
+  0% {margin-left: 0vw;}
+  
+}
+
+.kotopadik {
+  z-index: 1;
+ position: absolute;
+ width: 50vw;
+ height: 16vw;
+ top: 21vw;
+ left: 21vw;
+ background-image: url("../images/kotopadik.png");
+ background-size: cover; 
+}
+
+.catstart1 {
+  z-index: 0;
+  position: absolute;
+  width: 55vw;
+  height: 44vw;
+  top: 24vw;
+  left: -11vw;
+  background-image: url("../images/catstart1.svg");
+  background-size: cover;
+  animation: shake 0.5s ease-in-out infinite;
+ }
+
+ .catstart2 {
+  z-index: 0;
+  position: absolute;
+  width: 44vw;
+  height: 20.5vw;
+  top: -2vw;
+  left: 0vw;
+  background-image: url("../images/catstart2.svg");
+  background-size: cover;
+  animation: shake 0.5s ease-in-out infinite;
+ }
+
+ .catstart3 {
+  z-index: 0;
+  position: absolute;
+  width: 49vw;
+  height: 43.5vw;
+  top: -15vw;
+  left: 56vw;
+  background-image: url("../images/catstart3.svg");
+  background-size: cover;
+  animation: shake 0.5s ease-in-out infinite;
+ }
+
+ .catstart4 {
+  z-index: 0;
+  position: absolute;
+  width: 53vw;
+  height: 37.5vw;
+  top: 27vw;
+  left: 56vw;
+  background-image: url("../images/catstart4.svg");
+  background-size: cover;
+  animation: shake 0.5s ease-in-out infinite;
+ }
+
+ @keyframes shake {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-2px, 2px);
+  }
+  20% {
+    transform: translate(2px, -2px);
+  }
+  30% {
+    transform: translate(-2px, -2px);
+  }
+  40% {
+    transform: translate(2px, 2px);
+  }
+  50% {
+    transform: translate(-2px, 2px);
+  }
+  60% {
+    transform: translate(2px, -2px);
+  }
+  70% {
+    transform: translate(-2px, -2px);
+  }
+  80% {
+    transform: translate(2px, 2px);
+  }
+  90% {
+    transform: translate(-2px, 2px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.textmini {
+ position: absolute;
+ font-family: Favorit Pro;
+ font-size: 2vw;
+ left: 65.5vw;
+ top: 22.3vw;
+ text-align: center;
+ color: white;
+}
+
+.cat {
+ z-index: 0;
+ position: absolute;
+ width: 36vw;
+ height: 31vw;
+ top: 17vw;
+ left: 21vw;
+ background-image: url("../images/cat.svg");
+ background-size: cover;
+}
+
+.slova {
+ position: absolute;
+ width: 43vw;
+ height: 32vw;
+ top: 2vw;
+ left: 44vw;
+ background-image: url("../images/say.svg");
+ background-size: cover;
+}
+
+h1 {
+  position: absolute;
+ font-family: Favorit Pro;
+ font-size: 2vw;
+ left: 53.5vw;
+ top: 12.8vw;
+ text-align: center;
+}
+
+.slova2 {
+  position: absolute;
+  width: 42.4vw;
+  height: 29vw;
+  top: 1vw;
+  left: 44vw;
+  background-image: url("../images/say2.svg");
+  background-size: cover;
+}
+
+.text2 {
+ position: absolute;
+ font-family: Favorit Pro;
+ font-size: 2vw;
+ left: 57.5vw;
+ top: 12.6vw;
+ text-align: center;
+}
+
+.knopka {
+  z-index: 3;
+  position: absolute;
+  width: 6vw;
+  height: 6vw;
+  top: 50.5vw;
+  left: 81.32vw;
+  background-image: url("../images/knopka.svg");
+  background-size: cover;
+}
+
+.knopka2 {
+  z-index: 3;
+  position: absolute;
+  width: 6vw;
+  height: 6vw;
+  top: 50vw;
+  left: 81.32vw;
+  background-image: url("../images/knopka.svg");
+  background-size: cover;
+}
+
+.knopka3 {
+  z-index: 3;
+  position: absolute;
+  width: 6vw;
+  height: 6vw;
+  top: 50.5vw;
+  left: 81.32vw;
+  background-image: url("../images/knopka.svg");
+  background-size: cover;
+}
+
+.text3 {
+  position: absolute;
+  font-family: MB Druzba;
+  font-size: 3.2vw;
+  left: 88vw;
+  top: 52vw;
+  text-align: center; 
+}
+
+.text12 {
+  position: absolute;
+  font-family: MB Druzba;
+  font-size: 3.2vw;
+  left: 17vw;
+  top: 52vw;
+  text-align: center; 
+}
+
+
+
+.house {
+ background-image: url("../images/house.svg") ;
+ background-size: cover;
+ position: absolute;
+ width: 100%;
+ height: 0.42vw;
+ top: 5.21vw;
+ left: -0.11vw;
+ filter: blur(1vw);
+}
+
+.line {
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  height: .5vw;
+  left: 0vw;
+  top: 48.5vw;
+  background-image: url("../images/Line\ 1.svg");
+  background-size: cover;
+  filter: blur(.3vw);
+}
+
+.say3 {
+
+ position: absolute;
+ width: 35.1vw;
+ height: 24vw;
+ top: 1vw;
+ left: 1vw;
+ background-image: url("../images/say3.svg");
+ background-size: cover; 
+}
+
+.text4 {
+  position: absolute;
+  font-family: MB Druzba;
+  font-size: 2vw;
+  left: 10vw;
+  top: 12vw;
+}
+
+.knopkaplay {
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 3vw;
+  background-image: url("../images/knopka.svg");
+  background-size: cover;
+  filter: blur(.2vw);
+  display: none;
+}
+
+.knopkastop {
+  z-index: 3;
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 3vw;
+  background-image: url("../images/knopkastop.svg");
+  background-size: cover;
+  filter: blur(.2vw);
+}
+
+.knopkastop3 {
+  z-index: 3;
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 3vw;
+  background-image: url("../images/knopkastop.svg");
+  background-size: cover;
+}
+
+.knopkastop5 {
+  z-index: 3;
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 3vw;
+  background-image: url("../images/knopkastop.svg");
+  background-size: cover;
+}
+
+.knopkastop6 {
+  z-index: 3;
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 3vw;
+  background-image: url("../images/knopkastop.svg");
+  background-size: cover;
+}
+
+.knopkanext {
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 10vw;
+  background-image: url("../images/knopkanext.svg");
+  background-size: cover;
+  filter: blur(.2vw);
+}
+
+.knopkanext3 {
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 10vw;
+  background-image: url("../images/knopkanext.svg");
+  background-size: cover;
+}
+
+.knopkanext4 {
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 10vw;
+  background-image: url("../images/knopkanext.svg");
+  background-size: cover;
+}
+
+.knopkadone {
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 10vw;
+  background-image: url("../images/done.svg");
+  background-size: cover;
+  
+}
+
+.knopkadone1 {
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 10vw;
+  background-image: url("../images/done.svg");
+  background-size: cover;
+  
+}
+
+.knopkadone2 {
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 10vw;
+  background-image: url("../images/done.svg");
+  background-size: cover;
+  
+}
+
+.knopkadone3 {
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 10vw;
+  background-image: url("../images/done.svg");
+  background-size: cover;
+  
+}
+
+.knopkaplay2 {
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 3vw;
+  background-image: url("../images/knopka.svg");
+  background-size: cover;
+  display: none;
+}
+
+.knopkastop2 {
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 3vw;
+  background-image: url("../images/knopkastop.svg");
+  background-size: cover;
+}
+
+.knopkanext2 {
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 10vw;
+  background-image: url("../images/knopkanext.svg");
+  background-size: cover;
+}
+
+.knopkanext3 {
+  position: absolute;
+  width: 5.76vw;
+  height: 5.76vw;
+  top: 50.5vw;
+  left: 10vw;
+  background-image: url("../images/knopkanext.svg");
+  background-size: cover;
+}
+
+.house2 {
+ background-image: url("../images/house.svg") ;
+ background-size: cover;
+ position: absolute;
+ width: 65%;
+ height: 49.42vw;
+ top: 0.21vw;
+ left: 15.89vw;
+}
+
+.line2 {
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  height: .5vw;
+  left: 0vw;
+  top: 48.5vw;
+  background-image: url("../images/Line\ 1.svg");
+  background-size: cover;
+}
+
+
+.error {
+  z-index: 3;
+  position: absolute;
+  width: 75vw;
+  height: 90vw;
+  top: 100vw;
+  left: 30vw; 
+  background-image: url("../images/error.svg");
+  background-size: cover;
+  display: none;
+  animation: error  5s ;
+}
+
+@keyframes error {
+  0% {top:100vw;}
+  50% {top:5vw;}
+  100% {top:100vw;}
+}
+
+.text15 {
+  position: absolute;
+  font-family: MB Druzba;
+  font-size: 6vw;
+  left: 5vw;
+  top: 5vw;
+  text-align: center; 
+  display: none; 
+}
+
+ .dog {
+  z-index: 3;
+  position: absolute;
+  width: 8.7vw;
+  height: 10.56vw;
+  top: 15.5vw;
+  left: 40vw;
+  background-image: url("../images/spritedog.png");
+  background-size: cover; 
+  animation: dog infinite alternate-reverse 1s steps(1);
+}
+
+@keyframes dog {
+  0% {background-position: -1vw;}
+
+  12% {background-position: -11vw top}
+
+  24% {background-position: -21.14vw top}
+
+  36% {background-position: -31vw top}
+
+  48% {background-position: -40.5vw top}
+
+  60% {background-position: -50.3vw top}
+
+  72% {background-position: -60vw top}
+
+}
+
+.snake {
+  z-index: 3;
+  position: absolute;
+  width: 9.4vw;
+  height: 9.7vw;
+  top: 34.2vw;
+  left: 59.5vw;
+  background-image: url("../images/spritesnake.png");
+  background-size: cover; 
+  animation: snake infinite alternate-reverse 1s steps(1);
+}
+
+@keyframes snake {
+  0% {background-position: -210.51vw;}
+
+  9% {background-position: -200.21vw top}
+
+  18% {background-position: -190.69vw top}
+
+  24% {background-position: -180.56vw top}
+
+  36% {background-position: -170.32vw top}
+
+  45% {background-position: -160.39vw top}
+
+  56% {background-position: -150.32vw top}
+
+  63% {background-position: -140.46vw top}
+
+  72% {background-position: -130.3vw top}
+
+  81% {background-position: -120vw top}
+
+  90% {background-position: -110.3vw top}
+
+}
+
+.fish {
+  z-index: 3;
+  position: absolute;
+  width: 10.28vw;
+  height: 13.54vw;
+  left: 62.4vw;
+  top: 15.97vw;
+  background-image: url("../images/spritefish.png");
+  background-size: cover; 
+  animation: fish infinite  1s steps(1);
+}
+
+@keyframes fish {
+
+  1% {
+    background-position: -10vw;}
+17% {
+    background-position: -20vw;}
+33% {
+    background-position: -10vw;}
+49% {
+    background-position: -31.04vw;}
+65% {
+    background-position: -10vw;}
+81% {
+    background-position: -20vw;}
+99% {
+    background-position: -10vw;
+}
+}
+
+.cat1 {
+  z-index: 3;
+  position: absolute;
+  width: 9.8vw;
+  height: 12.56vw;
+  left: 44.7vw;
+  top: 32.08vw;
+  background-image: url("../images/spritecat1.png");
+  background-size: cover; 
+  animation: cat1 infinite 1s steps(1);
+}
+
+@keyframes cat1 {
+  1% { background-position: 0vw;}
+
+  50% { background-position: -19.45vw;}
+}
+
+
+.cat2 {
+  z-index: 3;
+  position: absolute;
+  width: 12vw;
+  height: 11vw;
+  left: 26vw;
+  top: 15vw;
+  background-image: url("../images/spritecat2.png");
+  background-size: cover; 
+  animation: cat2 infinite 1s steps(1);
+}
+
+@keyframes cat2 {
+  1% { background-position: 0vw;}
+
+  50% { background-position: -11.45vw;}
+}
+
+.cat3 {
+  z-index: 3;
+  position: absolute;
+  width: 9.5vw;
+  height: 9.5vw;
+  left: 31vw;
+  top: 34.8vw;
+  background-image: url("../images/spritecat3.png");
+  background-size: cover; 
+  animation: cat3 infinite  2s steps(1);
+}
+
+
+@keyframes cat3 {
+  0% {
+    background-position: -19.6vw top;
+}
+9% {
+  background-position: -29.1vw top;
+}
+18% {
+  background-position: -39vw top;
+}
+27% {
+  background-position: -49.6vw top;
+}
+36% {
+  background-position: -60vw top;
+}
+45% {
+    background-position: -49.6vw top;
+}
+56% {
+  background-position: -39vw top;
+}
+
+63% {
+  background-position: -29.1vw top;
+}
+
+72% {
+  background-position: -19.6vw top;
+}
+
+81% {
+  background-position: -9.8vw top;
+}
+
+90% {
+  background-position: 0vw;
+}
+
+99% {
+  background-position: -9.8vw top;
+}
+
+}
+
+.cat4 {
+  z-index: 3;
+  position: absolute;
+  width: 10.5vw;
+  height: 8.55vw;
+  top: 18svw;
+  left: 50.5vw;
+  background-image: url(../images/spritecat4.png);
+  background-size: cover;
+  animation: cat4 infinite alternate-reverse 1s steps(1); 
+
+}
+
+@keyframes cat4{
+  0% {
+    background-position: 0;
+}
+14% {
+    background-position: -11.6vw;
+}
+28% {
+    background-position: -24vw;
+}
+42% {
+    background-position: -34vw;
+}
+56% {
+    background-position: -44vw;
+}
+70% {
+    background-position: -54vw;
+}
+84% {
+    background-position: -65vw;
+}
+}
+
+.housepurple {
+ background-image: url("../images/welldone.svg") ;
+ background-size: cover;
+ position: absolute;
+ width: 68vw;
+ height: 50vw;
+ top: -0.5vw;
+ left: 15.5vw;
+}
+
+.catchelka {
+  z-index: 1;
+  position: absolute;
+  width: 36vw;
+  height: 36vw;
+  top: 12vw;
+  left: 21vw;
+  background-image: url("../images/catchelka.svg");
+  background-size: cover;
+}
+
+.text5 {
+  position: absolute;
+  font-family: Favorit Pro;
+  font-size: 2vw;
+  left: 57.5vw;
+  top: 11.8vw;
+  text-align: center;
+}
+
+.say4 {
+  position: absolute;
+  width: 39.1vw;
+  height: 21vw;
+  top: 5vw;
+  left: 1vw;
+  background-image: url("../images/say4.svg");
+  background-size: cover; 
+}
+
+.text6 {
+  position: absolute;
+  font-family: MB Druzba;
+  font-size: 2vw;
+  left: 12vw;
+  top: 11vw;
+}
+
+.catbar {
+  z-index: 1;
+  position: absolute;
+  width: 35.92vw;
+  height: 30.42vw;
+  top: 29.92vw;
+  left: 35.42vw;
+  background-image: url("../images/catbar.svg");
+  background-size: cover; 
+  filter: blur(.6vw);
+}
+
+.bar {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 9.65vw;
+  top: 38vw;
+  left: 0vw;
+  background-image: url("../images/bar.svg");
+  background-size: cover; 
+  filter: blur(.6vw);
+}
+
+.bar2 {
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  height: 9.65vw;
+  top: 38vw;
+  left: 0vw;
+  background-image: url("../images/bar.svg");
+  background-size: cover; 
+}
+
+.catbar2 {
+  z-index: 3;
+  position: absolute;
+  width: 35.92vw;
+  height: 30.42vw;
+  top: 29.92vw;
+  left: 35.42vw;
+  background-image: url("../images/catbar.svg");
+  background-size: cover; 
+}
+
+.catwant {
+  z-index: 2;
+  position: absolute;
+  width: 42vw;
+  height: 41vw;
+  left: 57vw;
+  top: 0vw;
+  background-image: url("../images/catwant.svg");
+  background-size: cover; 
+}
+
+.whatwant {
+  z-index: 2;
+  position: absolute;
+  width: 34vw;
+  height: 28vw;
+  left: 26vw;
+  top: 0vw;
+  background-image: url("../images/wahtwant.svg");
+  background-size: cover;  
+}
+
+.coke {
+  z-index: 2;
+  position: absolute;
+  width: 6.4vw;
+  height: 8vw;
+  left: 37vw;
+  top: 9vw;
+  background-image: url("../images/coke.svg");
+  background-size: cover;  
+}
+
+.rome {
+  z-index: 3;
+  position: absolute;
+  width: 5.9vw;
+  height: 17vw;
+  left: 10vw;
+  top: 25vw;
+  background-image: url("../images/rom.svg");
+  background-size: cover;   
+}
+
+.coke2 {
+  z-index: 3;
+  position: absolute;
+  width: 7.4vw;
+  height: 9vw;
+  left: 23vw;
+  top: 35vw;
+  background-image: url("../images/coke.svg");
+  background-size: cover;  
+}
+
+.wine {
+  z-index: 3;
+  position: absolute;
+  width: 5.4vw;
+  height: 15vw;
+  left: 61vw;
+  top: 31vw;
+  background-image: url("../images/wine.svg");
+  background-size: cover;
+}
+
+.bleizer {
+  z-index: 3;
+  position: absolute;
+  width: 4.4vw;
+  height: 14vw;
+  left: 76vw;
+  top: 30vw;
+  background-image: url("../images/bleizer.svg");
+  background-size: cover; 
+}
+
+.wiskey {
+  z-index: 3;
+  position: absolute;
+  width: 6.4vw;
+  height: 11vw;
+  left: 91vw;
+  top: 34vw;
+  background-image: url("../images/wiskey.svg");
+  background-size: cover;  
+}
+
+.text7 {
+  position: absolute;
+  font-family: MB Druzba;
+  font-size: 6vw;
+  left: 33vw;
+  top: 11vw;
+  text-align: center;  
+}
+
+.catagro {
+  z-index: 2;
+  position: absolute;
+  width: 42vw;
+  height: 42vw;
+  left: 58vw;
+  top: -2vw;
+  background-image: url("../images/catagro.svg");
+  background-size: cover; 
+}
+
+.knopkareplay {
+  position: absolute;
+  width: 6vw;
+  height: 6vw;
+  top: 50.5vw;
+  left: 92vw;
+  background-image: url("../images/replay.png");
+  background-size: cover;  
+}
+
+.cathappy {
+  z-index: 2;
+  position: absolute;
+  width: 43vw;
+  height: 42vw;
+  left: 57vw;
+  top: 0vw;
+  background-image: url("../images/cathappy.svg");
+  background-size: cover;
+}
+
+
+.bar3 {
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  height: 9.65vw;
+  top: 38vw;
+  left: 0vw;
+  background-image: url("../images/bar3.svg");
+  background-size: cover; 
+}
+
+.catbar3 {
+  z-index: 3;
+  position: absolute;
+  width: 35.92vw;
+  height: 30.42vw;
+  top: 29.92vw;
+  left: 35.42vw;
+  background-image: url("../images/catbar3.svg");
+  background-size: cover; 
+}
+
+.napitok {
+  z-index: 3;
+  position: absolute;
+  width: 8.4vw;
+  height: 12.3vw;
+  left: 71vw;
+  top: 31vw;
+  background-image: url("../images/napitok.svg");
+  background-size: cover;  
+}
+
+.catnew {
+  z-index: 1;
+  position: absolute;
+  width: 36vw;
+  height: 36vw;
+  top: 14vw;
+  left: 21vw;
+  background-image: url("../images/catnew.svg");
+  background-size: cover; 
+}
+
+.text8 {
+  position: absolute;
+  font-family: Favorit Pro;
+  font-size: 2vw;
+  left: 55.5vw;
+  top: 12.8vw;
+  text-align: center;
+}
+
+.house3 {
+  background-image: url("../images/house3.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 50.42vw;
+  top: 5.21vw;
+  left: -0.11vw;
+  filter: blur(.5vw);
+}
+
+.floor1 {
+  background-image: url("../images/1floor.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 59vw;
+  height: 16.8vw;
+  top: 12.21vw;
+  left: 21.89vw;
+  filter: blur(.5vw); 
+}
+
+.floor2 {
+  background-image: url("../images/2floor.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 59vw;
+  height: 17.3vw;
+  top: 30.21vw;
+  left: 21.89vw;
+  filter: blur(.5vw); 
+}
+
+.text9 {
+  z-index: 4;
+  position: absolute;
+  font-family: MB Druzba;
+  font-size: 2vw;
+  left: 11vw;
+  top: 12vw;
+}
+
+
+.house4 {
+  background-image: url("../images/house3.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 50.42vw;
+  top: 0vw;
+  left: -0.1vw;
+
+}
+
+.floor4 {
+  background-image: url("../images/1floor.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 59vw;
+  height: 16.8vw;
+  top: 12.21vw;
+  left: 18.89vw;
+
+}
+
+.floor3 {
+  background-image: url("../images/2floor.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 59vw;
+  height: 17.3vw;
+  top: 30.21vw;
+  left: 18.89vw;
+
+}
+
+.bigfloor {
+  background-image: url("../images/floorbig.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 101vw;
+  height: 46vw;
+  top: 4vw;
+  left: 0vw;
+  filter: blur(.6vw);
+}
+
+.bottle1 {
+  background-image: url("../images/bottle1.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 5vw;
+  height: 6.3vw;
+  top: 29vw;
+  left: 39vw;
+  filter: blur(.6vw);
+}
+
+.bottle2 {
+  background-image: url("../images/bottle2.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 5vw;
+  height: 6.3vw;
+  top: 39vw;
+  left: 9vw;
+  filter: blur(.6vw);
+}
+
+.bottle3 {
+  background-image: url("../images/bottle3.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 4vw;
+  height: 5.3vw;
+  top: 43vw;
+  left: 36vw;
+  filter: blur(.6vw);
+}
+
+.bottle4 {
+  background-image: url("../images/bottle4.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 4vw;
+  height: 5.3vw;
+  top: 43vw;
+  left: 91vw;
+  filter: blur(.6vw);
+}
+
+.paper1 {
+  background-image: url("../images/paper1.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  top: 40vw;
+  left: 52vw;
+  filter: blur(.6vw);
+}
+
+.paper2 {
+  background-image: url("../images/paper2.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 4vw;
+  height: 4vw;
+  top: 44vw;
+  left: 66vw;
+  filter: blur(.6vw);
+}
+
+.paper3 {
+  background-image: url("../images/paper3.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 4vw;
+  height: 4vw;
+  top: 38vw;
+  left: 22vw;
+  filter: blur(.6vw);
+}
+
+.paper4 {
+  background-image: url("../images/paper4.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  top: 39vw;
+  left: 77vw;
+  filter: blur(.6vw);
+}
+.paper5 {
+  background-image: url("../images/paper5.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  top: 46vw;
+  left: 4vw;
+  filter: blur(.6vw);
+}
+
+.dj {
+  background-image: url("../images/dj.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 31vw;
+  height: 18.2vw;
+  top: 20vw;
+  left: 67vw;
+  filter: blur(.6vw);
+}
+
+.dj2 {
+  background-image: url("../images/dj2.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 31vw;
+  height: 18.2vw;
+  top: 15vw;
+  left: 67vw;
+  filter: blur(.6vw);
+}
+
+.dj3 {
+  background-image: url("../images/dj.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 31vw;
+  height: 18.2vw;
+  top: 15vw;
+  left: 67vw;
+}
+
+.disco {
+  background-image: url("../images/disco.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 11vw;
+  height: 18vw;
+  top: 4.3vw;
+  left: 48vw;
+  filter: blur(.6vw);
+}
+
+.disco2 {
+  background-image: url("../images/disco2.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 8vw;
+  height: 17vw;
+  top: 4.3vw;
+  left: 48vw;
+  filter: blur(.6vw);
+}
+
+.bin {
+  background-image: url("../images/bin.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 7.4vw;
+  height: 7vw;
+  top: 26vw;
+  left: 58vw; 
+  filter: blur(.6vw);
+}
+
+.pautina {
+  background-image: url("../images/pautina.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 10.4vw;
+  height: 11vw;
+  top: 4.3vw;
+  left: 0vw;
+  filter: blur(.6vw);
+}
+
+.say5 {
+  z-index: 3;
+  position: absolute;
+  width: 37.1vw;
+  height: 24.3vw;
+  top: 6vw;
+  left: 1vw;
+  background-image: url("../images/say5.svg");
+  background-size: cover; 
+}
+
+.text10 {
+  z-index: 4;
+  position: absolute;
+  font-family: MB Druzba;
+  font-size: 2vw;
+  left: 12vw;
+  top: 15vw;
+  text-align: center;
+}
+
+.text13 {
+  z-index: 4;
+  position: absolute;
+  font-family: MB Druzba;
+  font-size: 2vw;
+  left: 12vw;
+  top: 10vw;
+  text-align: center;
+}
+
+.bigfloor2 {
+  background-image: url("../images/floorbig.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 101vw;
+  height: 46vw;
+  top: 4vw;
+  left: 0vw;
+}
+
+.bottle12 {
+  background-image: url("../images/bottle1.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 5vw;
+  height: 6.3vw;
+  top: 29vw;
+  left: 39vw;
+}
+
+.bottle22 {
+  background-image: url("../images/bottle2.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 5vw;
+  height: 6.3vw;
+  top: 39vw;
+  left: 9vw;
+}
+
+.bottle32 {
+  background-image: url("../images/bottle3.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 4vw;
+  height: 5.3vw;
+  top: 43vw;
+  left: 36vw;
+}
+
+.bottle42 {
+  background-image: url("../images/bottle4.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 4vw;
+  height: 5.3vw;
+  top: 43vw;
+  left: 91vw;
+}
+
+.paper12 {
+  background-image: url("../images/paper1.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  top: 40vw;
+  left: 52vw;
+}
+
+.paper22 {
+  background-image: url("../images/paper2.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 4vw;
+  height: 4vw;
+  top: 44vw;
+  left: 66vw;
+}
+
+.paper32 {
+  background-image: url("../images/paper3.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 4vw;
+  height: 4vw;
+  top: 38vw;
+  left: 22vw;
+}
+
+.paper42 {
+  background-image: url("../images/paper4.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  top: 39vw;
+  left: 77vw;
+}
+.paper52 {
+  background-image: url("../images/paper5.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  top: 46vw;
+  left: 4vw;
+}
+
+
+.dj {
+  background-image: url("../images/dj.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 31vw;
+  height: 18.2vw;
+  top: 15vw;
+  left: 67vw;
+  filter: blur(0vw);
+}
+
+.dj22 {
+  background-image: url("../images/dj2.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 31vw;
+  height: 18.2vw;
+  top: 15vw;
+  left: 67vw;
+  display: none;
+}
+
+.disco22 {
+  background-image: url("../images/disco.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 11vw;
+  height: 18vw;
+  top: 3.5vw;
+  left: 48vw;
+  
+}
+
+.disco222 {
+  background-image: url("../images/disco2.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 8.5vw;
+  height: 17vw;
+  top: 4.3vw;
+  left: 48vw;
+  display: none;
+}
+
+.bin2 {
+  background-image: url("../images/bin.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 7.4vw;
+  height: 7vw;
+  top: 26vw;
+  left: 58vw; 
+}
+
+.pautina2 {
+  background-image: url("../images/pautina.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 10.4vw;
+  height: 11vw;
+  top: 4.3vw;
+  left: 0vw;
+
+}
+
+.floor5 {
+  background-image: url("../images/floor3.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 100vw;
+  height: 45vw;
+  top: 4.8vw;
+  left: 0vw;
+}
+
+
+
+.floor6 {
+  z-index: 2;
+  background-image: url("../images/floor6.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 60vw;
+  height: 12.8vw;
+  top: 12.21vw;
+  left: 18.89vw;
+
+}
+
+.text14 {
+  z-index: 3;
+  position: absolute;
+  font-family: MB Druzba;
+  font-size: 2vw;
+  left: 15vw;
+  top: 13vw;
+}
+
+.say6 {
+  z-index: 3;
+  position: absolute;
+  width: 35.1vw;
+  height: 24vw;
+  top: 1vw;
+  left: 1vw;
+  background-image: url("../images/say3.svg");
+  background-size: cover; 
+ }
+
+ .say7 {
+  z-index: 3;
+  position: absolute;
+  width: 35.1vw;
+  height: 24vw;
+  top: 1vw;
+  left: 1vw;
+  background-image: url("../images/say3.svg");
+  background-size: cover; 
+ }
+
+
+.cat5 {
+  z-index: 1;
+  position: absolute;
+  width: 36vw;
+  height: 36vw;
+  top: 15vw;
+  left: 21vw;
+  background-image: url("../images/cat3.svg");
+  background-size: cover;
+}
+
+.text11 {
+  position: absolute;
+  font-family: Favorit Pro;
+  font-size: 2vw;
+  left: 53vw;
+  top: 13vw;
+  line-height: normal;
+  color: aliceblue;
+  text-align: center;
+ }
+
+.slova3 {
+  position: absolute;
+  width: 42.8vw;
+  height: 31vw;
+  top: 1vw;
+  left: 44vw;
+  background-image: url("../images/say6.svg");
+  background-size: cover;
+}
+
+.lines {
+  background-image: url("../images/lines.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 101vw;
+  height: 46vw;
+  top: 4vw;
+  left: 0vw;
+}
+
+.sofa {
+  background-image: url("../images/sofa.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 31vw;
+  height: 15.2vw;
+  top: 23vw;
+  left: 67vw;
+}
+
+.vanna {
+  background-image: url("../images/vanna.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 31vw;
+  height: 23.2vw;
+  top: 19vw;
+  left: 6vw;
+}
+
+.window {
+  background-image: url("../images/window.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 17vw;
+  height: 17.2vw;
+  top: 7vw;
+  left: 38vw;
+}
+.lamp1 {
+  background-image: url("../images/lamp1.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 3vw;
+  height: 17.2vw;
+  top: 4vw;
+  left: 15vw;
+  transform-origin: top;
+  animation: rotate 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(10deg);
+    }
+  }
+  
+
+
+.lamp2 {
+  background-image: url("../images/lam2.svg") ;
+  background-size: cover;
+  position: absolute;
+  width: 4vw;
+  height: 21.2vw;
+  top: 4vw;
+  left: 67vw;
+  transform-origin: top;
+  animation: rotate2 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes rotate2 {
+    0% {
+      transform: rotate(20deg);
+    }
+    100% {
+      transform: rotate(-20deg);
+    }
+  }
+
+  .luzha {
+    background-image: url("../images/luzha1.svg") ;
+    background-size: cover;
+    position: absolute;
+    width: 17vw;
+    height: 8.2vw;
+    top: 37vw;
+    left: 41vw;
+  }
+
+  .luzha2 {
+    background-image: url("../images/luzha2.svg") ;
+    background-size: cover;
+    position: absolute;
+    width: 11vw;
+    height: 5.5vw;
+    top: 43vw;
+    left: 17vw;
+  }
+
+  .pautina3 {
+    background-image: url("../images/pautina3.svg") ;
+    background-size: cover;
+    position: absolute;
+    width: 11vw;
+    height: 9.5vw;
+    top: 4vw;
+    left: 89vw;
+  }
+
+  .normokno {
+    background-image: url("../images/normokno.svg") ;
+    background-size: cover;
+    position: absolute;
+    width: 17vw;
+    height: 17.2vw;
+    top: 7vw;
+    left: 38vw;
+    display: none;
+  }
+  
+  .normvanna {
+    background-image: url("../images/normvanna.svg") ;
+    background-size: cover;
+    position: absolute;
+    width: 31vw;
+    height: 23.2vw;
+    top: 19vw;
+    left: 6vw;
+    display: none;
+  }
+  
+
+  .normsofa {
+    background-image: url("../images/normsofa.svg") ;
+    background-size: cover;
+    position: absolute;
+    width: 31vw;
+    height: 15.2vw;
+    top: 23vw;
+    left: 67vw;
+    display: none;
+  }
+
+  .normlampa1 {
+    background-image: url("../images/normlampa.svg") ;
+    background-size: cover;
+    position: absolute;
+    width: 3.2vw;
+    height: 17.2vw;
+    top: 4vw;
+    left: 15vw;
+    display: none;
+    
+  }
+
+  .normlampa2 {
+    background-image: url("../images/normlampa2.svg") ;
+    background-size: cover;
+    position: absolute;
+    width: 4vw;
+    height: 21.2vw;
+    top: 4vw;
+    left: 67vw;
+    display: none;
+    }
+
+
+
+
+
+
+
+
+
